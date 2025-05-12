@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jeremy McWilliams">
 
-<title>Welcome to rstudio – Data in the Wild, Lewis &amp; Clark</title>
+<title>Module 1 Overview – Data in the Wild, Lewis &amp; Clark</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -117,7 +81,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module1/module1-overview.html">Module 1</a></li><li class="breadcrumb-item"><a href="../module1/week1.html">Week 1 - Intro to RStudio</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module1/module1-overview.html">Module 1</a></li><li class="breadcrumb-item"><a href="../module1/module1-overview.html">Module 1 Overview</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,13 +123,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../module1/module1-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="../module1/module1-overview.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Module 1 Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../module1/week1.html" class="sidebar-item-text sidebar-link active">
+  <a href="../module1/week1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 1 - Intro to RStudio</span></a>
   </div>
 </li>
@@ -181,12 +145,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome-to-rstudio" id="toc-welcome-to-rstudio" class="nav-link active" data-scroll-target="#welcome-to-rstudio">Welcome to rstudio!</a>
+  <li><a href="#module-1-overview" id="toc-module-1-overview" class="nav-link active" data-scroll-target="#module-1-overview">Module 1 Overview</a>
   <ul class="collapse">
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#rstudio-windows" id="toc-rstudio-windows" class="nav-link" data-scroll-target="#rstudio-windows">rstudio windows</a></li>
-  <li><a href="#code-chunks" id="toc-code-chunks" class="nav-link" data-scroll-target="#code-chunks">Code chunks</a></li>
-  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a></li>
+  <li><a href="#week-summaries" id="toc-week-summaries" class="nav-link" data-scroll-target="#week-summaries">Week Summaries</a></li>
+  <li><a href="#antarctica-narrative" id="toc-antarctica-narrative" class="nav-link" data-scroll-target="#antarctica-narrative">Antarctica Narrative</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -194,28 +156,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module1/module1-overview.html">Module 1</a></li><li class="breadcrumb-item"><a href="../module1/week1.html">Week 1 - Intro to RStudio</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../module1/module1-overview.html">Module 1</a></li><li class="breadcrumb-item"><a href="../module1/module1-overview.html">Module 1 Overview</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Welcome to rstudio</h1>
+<h1 class="title">Module 1 Overview</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Jeremy McWilliams </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
   
     
   </div>
@@ -225,73 +175,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="welcome-to-rstudio" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-rstudio">Welcome to rstudio!</h2>
-<p>Let’s start off by clicking the “Visual” button above, so this document is a little easier to read and work with. You’ll likely get a popup window the first time, confirming that you want to switch to Visual Mode.</p>
-<p>Just click <em>Use Visual Mode</em>, with <em>Don’t show this message again</em> checked.</p>
-<section id="learning-objectives" class="level3">
-<h3 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h3>
+<section id="module-1-overview" class="level2">
+<h2 class="anchored" data-anchor-id="module-1-overview">Module 1 Overview</h2>
+<section id="week-summaries" class="level3">
+<h3 class="anchored" data-anchor-id="week-summaries">Week Summaries</h3>
+<p>Week 1: Introduction to Course - the team, the mission and the path we’ll take get there</p>
+<p>Weeks 2-4: We’re in Antarctica - Get to know our team and our new home! We will practice thinking with data, managing data, and analyzing data by:</p>
 <ul>
-<li><p>Gain some familiarity with rstudio</p></li>
-<li><p>Learn how to run R code in “code chunks”</p></li>
-<li><p>Perform some arithmetic with R</p></li>
-<li><p>Create variables in R, and assign values to them</p></li>
+<li><p>exploring and summarizing data about our new colleagues</p></li>
+<li><p>exploring and summarizing our new environment with weather station data</p></li>
+<li><p>getting oriented to basics of computer programming using R and RStudio practicing basic data manipulation using R</p></li>
 </ul>
 </section>
-<section id="rstudio-windows" class="level3">
-<h3 class="anchored" data-anchor-id="rstudio-windows">rstudio windows</h3>
-<p>You’ll notice rstudio is divided into 4 windows. Let’s take a look at each one:</p>
-<ul>
-<li><p>upper-left: this is the area for reading / writing files. We’ll probably use this window the most this semester.</p></li>
-<li><p>lower-left: this is the console, where you can run R code directly. You might use this occasionally, but for the most part probably won’t have to.</p></li>
-<li><p>upper-right: this window has a couple useful tabs:</p>
-<ul>
-<li><p>Environment: any variables you create will be listed here. This can be useful for quick reference.</p></li>
-<li><p>History: this shows the R commands you’ve run within a session.</p></li>
-</ul></li>
-<li><p>lower-right: this window lists any files and folders that are part of your project/assignment. It also has tabs that can display plots and help documentation.</p></li>
-</ul>
-<p>You can resize windows / borders as needed in order to more easily focus on the particular window you’re using.</p>
-</section>
-<section id="code-chunks" class="level3">
-<h3 class="anchored" data-anchor-id="code-chunks">Code chunks</h3>
-<p>The grey rectangles below are “code chunks”, where you can type and execute R code. To run the code, click the green triangle in the upper-right corner of the code chunk.</p>
-<p>Let’s try running the code chunk below, which is just some simple arithmetic:</p>
-<p>Now it’s your turn. In the code chunk below, enter a command to subtract 7 from 18, and run it:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Enter code below (by the way, I'm a comment)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="variables" class="level3">
-<h3 class="anchored" data-anchor-id="variables">Variables</h3>
-<p>Programming languages, including R, rely heavily on the use of <em>variables</em>. A variable is something you define and assign a value to. In the code chunk below, we’re creating a variable called <code>x</code>, and assigning the value of 7 to it:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Notice we use a 'left pointing arrow' to assign the value</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>We don’t get any real feedback from running the code above, but it’s often a good idea to check your work by printing a variable’s value to the screen. To do this, you can run code that simply lists the variable:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># prints to the screen:</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>It’s worth noting that you can run multiple lines of code within a code chunk:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create a variable "penguinCount" and give it the value 3</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># print to screen</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Now it’s your turn. Work with your group / people next to you, and do the following:</p>
-<ul>
-<li>create a variable called <code>y</code>, assign three plus eight to it, and print to the screen.</li>
-<li>create a variable <code>z</code>, and assign <code>x+y</code> to it, and print to the screen</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create the variable "y" here, and print to screen</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create the variable "z" here, and print to screen</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>You made it! That’s it for now. We’ll do a quick review of variables during the next lesson, and will work our way toward some more exciting topics.</p>
-<p>Make sure you have this completed by midnight on Tuesday, September 6th. And you don’t have to “turn it in” - we’ll be able to view your project on the class work space.</p>
+<section id="antarctica-narrative" class="level3">
+<h3 class="anchored" data-anchor-id="antarctica-narrative">Antarctica Narrative</h3>
+<p>We start en route to Antarctica! We took a survey to get to know our teammates, their skills, and choose a mascot. We land and learn about the weather of a few research stations there. We use the palmer penguin data set for practice, which is real data collected on the Palmer archipeligo in Antarctica.</p>
 
 
 </section>
