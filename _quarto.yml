@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Data in the Wild, Lewis & Clark"
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    #logo: image/owl.png
+    #logo-href: src/1.qmd
+    search: true   
+    contents:
+      - href: index.qmd
+        text: "Data in the Wild"
+      - section: "Module 1"
+        contents: 
+          - href: module1/week1.qmd
+            text: "Week 1 - Intro to RStudio"
+
+
+
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
